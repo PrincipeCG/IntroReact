@@ -1,6 +1,6 @@
 import './App.css'
 import Card from './Components/Card.jsx'
-
+import Counter from './Components/Counter.jsx'
   
 const alt = "cat-image"
 
@@ -23,9 +23,9 @@ function App() {
         alt={alt}
         text={"Gato 3"}
         />
-      
+        <Counter />
     </>
   )
 }
- 
+
 export default App
