@@ -1,6 +1,7 @@
 import './App.css'
 import Card from './Components/Card.jsx'
 import Counter from './Components/Counter.jsx'
+import FilterableList from './Components/FilterableList.jsx'
   
 const alt = "cat-image"
 
@@ -24,6 +25,7 @@ function App() {
         text={"Gato 3"}
         />
         <Counter />
+        <FilterableList />
     </>
   )
 }
