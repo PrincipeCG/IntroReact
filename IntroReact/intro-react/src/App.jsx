@@ -2,7 +2,8 @@ import './App.css'
 import Card from './Components/Card.jsx'
 import Counter from './Components/Counter.jsx'
 import FilterableList from './Components/FilterableList.jsx'
-  
+import Timer from './Components/timer.jsx' 
+
 const alt = "cat-image"
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         />
         <Counter />
         <FilterableList />
+        <Timer />
     </>
   )
 }
