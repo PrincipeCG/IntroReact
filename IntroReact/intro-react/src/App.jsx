@@ -5,7 +5,11 @@ import FilterableList from './Components/FilterableList'
 import Timer from './Components/timer' 
 import ConditionalSquare from './Components/ConditionalSquare'
 import SquareContainer from './Components/SquareContainer'
+import FocusInput from './Components/FocusInput'
+import Parents from './Components/useCallBackExample'
+import ContadorReducer from './Components/ContadorReducer'
 import { useState } from 'react'
+
 
 const alt = "cat-image"
 
@@ -42,6 +46,9 @@ function App() {
           <ConditionalSquare key={index} />
         ))}
       </SquareContainer>
+      <FocusInput/>
+      <Parents />
+      <ContadorReducer />
     </>
   )
 }
