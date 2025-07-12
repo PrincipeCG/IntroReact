@@ -9,9 +9,14 @@ export default function FocusInput(){
         
     }
 
+    const printInputText = () =>{
+        console.log(inputRef.current.value);
+        
+    }
+
     return (
         <div>
-            <input type="text" ref={inputRef} />
+            <input type="text" ref={inputRef} onChange={() => printInputText} />
             <button onClick={() => handleClick()}> Escribir en el input </button>
         </div>
     )
